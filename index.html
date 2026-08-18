@@ -1,23 +1,95 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-AO">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mário Quissambo</title>
+  <title>Mário Quissambo | Sites, Design e Tráfego Pago em Luanda</title>
+  <meta name="description" content="Crio sites, identidade visual e campanhas Meta Ads que geram resultados. Portfólio de Mário Quissambo – Desenvolvimento Web, Design Gráfico e Tráfego Pago em Luanda, Angola." />
+  <meta name="keywords" content="desenvolvimento web Luanda, criação de sites Angola, design gráfico Luanda, tráfego pago Meta Ads, freelancer web Angola, landing page profissional, Mário Quissambo" />
+  <meta name="author" content="Mário Quissambo" />
+  <meta name="robots" content="index, follow" />
+  <meta name="geo.region" content="AO-LUA" />
+  <meta name="geo.placename" content="Luanda" />
+  <link rel="canonical" href="https://marioquissambo.com/" />
+
+  <!-- Open Graph / WhatsApp / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_AO" />
+  <meta property="og:title" content="Mário Quissambo | Sites, Design e Tráfego Pago em Luanda" />
+  <meta property="og:description" content="Crio sites, identidade visual e campanhas Meta Ads que geram resultados. Desenvolvimento Web, Design Gráfico e Tráfego Pago em Luanda, Angola." />
+  <meta property="og:url" content="https://marioquissambo.com/" />
+  <meta property="og:site_name" content="Mário Quissambo" />
+  <meta property="og:image" content="https://marioquissambo.com/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mário Quissambo | Sites, Design e Tráfego Pago" />
+  <meta name="twitter:description" content="Crio sites, identidade visual e campanhas Meta Ads que geram resultados. Luanda, Angola." />
+
+  <!-- Favicon (placeholder) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>MQ</text></svg>" />
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mário Quissambo",
+    "url": "https://marioquissambo.com/",
+    "email": "marioquissambo3@gmail.com",
+    "telephone": "+244951526708",
+    "jobTitle": "Desenvolvedor Web, Designer Gráfico e Especialista em Tráfego Pago",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Luanda",
+      "addressCountry": "AO"
+    },
+    "sameAs": [
+      "https://instagram.com/quissambo09",
+      "https://facebook.com/MarioQuissambo",
+      "https://linkedin.com/in/marioquissambo"
+    ],
+    "knowsAbout": ["Desenvolvimento Web", "Design Gráfico", "Meta Ads", "Tráfego Pago", "Landing Pages"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Mário Quissambo – Serviços Digitais",
+    "description": "Criação de sites, design gráfico e gestão de campanhas Meta Ads em Luanda, Angola.",
+    "url": "https://marioquissambo.com/",
+    "telephone": "+244951526708",
+    "email": "marioquissambo3@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Luanda",
+      "addressCountry": "AO"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Angola"
+    },
+    "priceRange": "$$"
+  }
+  </script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
+      --primary: #1e3a5f;
+      --primary-light: #2a4a73;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+      --bg: #f0f4f8;
+      --bg2: #ffffff;
+      --bg3: #e8eef5;
+      --text: #1a2332;
+      --muted: #5a6a7a;
+      --border: #d0dae6;
       --gold: #c9a84c;
-      --gold-light: #e0bc6e;
-      --gold-btn: #c9a84c;
-      --bg: #0d0d0d;
-      --bg2: #161616;
-      --bg3: #1e1e1e;
-      --text: #ffffff;
-      --muted: #888888;
-      --border: #2a2a2a;
     }
 
     html { scroll-behavior: smooth; }
@@ -35,12 +107,13 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: var(--bg);
+      background: var(--bg2);
       border-bottom: 1px solid var(--border);
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 18px 24px;
+      padding: 16px 24px;
+      box-shadow: 0 1px 8px rgba(30, 58, 95, 0.06);
     }
 
     .nav-logo {
@@ -54,15 +127,17 @@
     .logo-mark {
       font-size: 14px;
       font-weight: 800;
-      color: var(--gold);
-      border: 1.5px solid var(--gold);
+      color: var(--accent);
+      border: 1.5px solid var(--accent);
       padding: 3px 6px;
       letter-spacing: 1px;
+      border-radius: 4px;
     }
 
     .nav-name {
       font-size: 16px;
       font-weight: 600;
+      color: var(--primary);
     }
 
     .menu-btn {
@@ -72,18 +147,22 @@
       padding: 8px 18px;
       font-size: 14px;
       cursor: pointer;
-      border-radius: 6px;
+      border-radius: 8px;
       font-family: inherit;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
     }
-    .menu-btn:hover { border-color: var(--gold); color: var(--gold); }
+    .menu-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: rgba(59, 130, 246, 0.06);
+    }
 
     /* ── MOBILE MENU OVERLAY ── */
     .menu-overlay {
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.95);
+      background: rgba(30, 58, 95, 0.97);
       z-index: 200;
       flex-direction: column;
       padding: 80px 32px 32px;
@@ -95,25 +174,27 @@
       top: 18px;
       right: 24px;
       background: none;
-      border: 1px solid var(--border);
-      color: var(--text);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: #fff;
       padding: 8px 18px;
       font-size: 14px;
       cursor: pointer;
-      border-radius: 6px;
+      border-radius: 8px;
       font-family: inherit;
     }
+    .menu-close:hover { border-color: #fff; }
 
     .menu-overlay a {
-      color: var(--text);
+      color: #fff;
       text-decoration: none;
       font-size: 28px;
       font-weight: 700;
       padding: 16px 0;
-      border-bottom: 1px solid var(--border);
+      border-bottom: 1px solid rgba(255,255,255,0.15);
       transition: color 0.2s;
     }
-    .menu-overlay a.active, .menu-overlay a:hover { color: var(--gold); }
+    .menu-overlay a.active,
+    .menu-overlay a:hover { color: #93c5fd; }
 
     /* ── SECTIONS ── */
     section { padding: 72px 24px; }
@@ -122,7 +203,7 @@
       font-size: 11px;
       font-weight: 700;
       letter-spacing: 3px;
-      color: var(--gold);
+      color: var(--accent);
       text-transform: uppercase;
       margin-bottom: 20px;
     }
@@ -132,6 +213,7 @@
       font-weight: 800;
       line-height: 1.08;
       margin-bottom: 32px;
+      color: var(--primary);
     }
 
     h2 {
@@ -139,6 +221,7 @@
       font-weight: 800;
       line-height: 1.1;
       margin-bottom: 20px;
+      color: var(--primary);
     }
 
     h3 {
@@ -146,9 +229,10 @@
       font-weight: 700;
       line-height: 1.2;
       margin-bottom: 12px;
+      color: var(--primary);
     }
 
-    p { color: #cccccc; line-height: 1.75; margin-bottom: 16px; }
+    p { color: var(--muted); line-height: 1.75; margin-bottom: 16px; }
 
     /* ── HERO ── */
     #hero {
@@ -159,6 +243,7 @@
       position: relative;
       overflow: hidden;
       padding: 80px 24px;
+      background: linear-gradient(160deg, #e8f0fe 0%, #f0f4f8 40%, #ffffff 100%);
     }
 
     .particles {
@@ -172,15 +257,15 @@
       width: 3px;
       height: 3px;
       border-radius: 50%;
-      background: var(--gold);
-      opacity: 0.4;
+      background: var(--accent);
+      opacity: 0.25;
       animation: float linear infinite;
     }
 
     @keyframes float {
       0% { transform: translateY(100vh) scale(0); opacity: 0; }
-      10% { opacity: 0.4; }
-      90% { opacity: 0.4; }
+      10% { opacity: 0.3; }
+      90% { opacity: 0.3; }
       100% { transform: translateY(-20px) scale(1); opacity: 0; }
     }
 
@@ -193,9 +278,9 @@
     }
 
     .btn-outline {
-      background: transparent;
-      border: 1px solid var(--border);
-      color: var(--text);
+      background: var(--bg2);
+      border: 1.5px solid var(--border);
+      color: var(--primary);
       padding: 16px 24px;
       font-size: 15px;
       font-weight: 500;
@@ -205,13 +290,17 @@
       text-decoration: none;
       display: block;
       font-family: inherit;
-      transition: border-color 0.2s, color 0.2s;
+      transition: border-color 0.2s, color 0.2s, box-shadow 0.2s;
     }
-    .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+    .btn-outline:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      box-shadow: 0 4px 14px rgba(59, 130, 246, 0.15);
+    }
 
     .btn-gold {
-      background: var(--gold-btn);
-      color: #000;
+      background: var(--accent);
+      color: #fff;
       border: none;
       padding: 16px 28px;
       font-size: 16px;
@@ -222,18 +311,24 @@
       text-decoration: none;
       display: inline-block;
       font-family: inherit;
-      transition: background 0.2s;
+      transition: background 0.2s, transform 0.15s;
     }
-    .btn-gold:hover { background: var(--gold-light); }
+    .btn-gold:hover {
+      background: var(--accent-hover);
+      transform: translateY(-1px);
+    }
 
     /* ── ABOUT ── */
-    #sobre { border-top: 1px solid var(--border); }
+    #sobre {
+      border-top: 1px solid var(--border);
+      background: var(--bg2);
+    }
 
     .foto-circle {
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      border: 2px solid var(--gold);
+      border: 3px solid var(--accent);
       overflow: hidden;
       margin: 32px auto;
       background: var(--bg3);
@@ -241,7 +336,9 @@
       align-items: center;
       justify-content: center;
       font-size: 60px;
-      color: var(--gold);
+      color: var(--accent);
+      font-weight: 800;
+      box-shadow: 0 8px 24px rgba(59, 130, 246, 0.12);
     }
 
     .foto-circle img {
@@ -260,13 +357,14 @@
 
     .service-num {
       font-size: 12px;
-      color: var(--muted);
+      color: var(--accent);
       margin-bottom: 12px;
-      font-weight: 500;
+      font-weight: 600;
+      letter-spacing: 1px;
     }
 
     .service-link {
-      color: var(--gold);
+      color: var(--accent);
       text-decoration: none;
       font-size: 14px;
       font-weight: 600;
@@ -288,13 +386,16 @@
       line-height: 1.8;
     }
     .service-fallback a {
-      color: var(--gold);
+      color: var(--accent);
       text-decoration: none;
       font-weight: 600;
     }
 
     /* ── PROJETOS ── */
-    #projetos { border-top: 1px solid var(--border); }
+    #projetos {
+      border-top: 1px solid var(--border);
+      background: var(--bg2);
+    }
 
     .filter-tabs {
       display: flex;
@@ -306,7 +407,7 @@
 
     .filter-tab {
       padding: 8px 18px;
-      border-radius: 6px;
+      border-radius: 8px;
       border: 1px solid var(--border);
       background: transparent;
       color: var(--muted);
@@ -317,29 +418,35 @@
       transition: all 0.2s;
     }
     .filter-tab.active {
-      border-color: var(--gold);
-      color: var(--text);
-      background: rgba(201,168,76,0.1);
+      border-color: var(--accent);
+      color: var(--accent);
+      background: rgba(59, 130, 246, 0.08);
     }
-    .filter-tab:hover { border-color: var(--gold); color: var(--text); }
+    .filter-tab:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
 
     .projects-grid { display: flex; flex-direction: column; gap: 16px; }
 
     .project-card {
-      background: var(--bg2);
+      background: var(--bg);
       border: 1px solid var(--border);
-      border-radius: 12px;
+      border-radius: 14px;
       padding: 28px;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s;
     }
-    .project-card:hover { border-color: var(--gold); }
+    .project-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 6px 20px rgba(59, 130, 246, 0.1);
+    }
     .project-card[data-hidden="true"] { display: none; }
 
     .project-tag {
       font-size: 10px;
       font-weight: 700;
       letter-spacing: 2px;
-      color: var(--gold);
+      color: var(--accent);
       text-transform: uppercase;
       margin-bottom: 10px;
     }
@@ -348,12 +455,18 @@
       font-size: 20px;
       font-weight: 700;
       margin-bottom: 10px;
+      color: var(--primary);
     }
 
-    .project-desc { color: var(--muted); font-size: 14px; line-height: 1.6; margin: 0; }
+    .project-desc {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 0;
+    }
 
     .project-link {
-      color: var(--gold);
+      color: var(--accent);
       text-decoration: none;
       font-size: 13px;
       font-weight: 600;
@@ -374,7 +487,7 @@
     .contact-card {
       background: var(--bg2);
       border: 1px solid var(--border);
-      border-radius: 12px;
+      border-radius: 14px;
       padding: 18px 20px;
       display: flex;
       align-items: center;
@@ -382,22 +495,46 @@
       cursor: pointer;
       text-decoration: none;
       color: var(--text);
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s;
       font-size: 15px;
       font-weight: 600;
     }
-    .contact-card:hover { border-color: var(--gold); }
+    .contact-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 4px 16px rgba(59, 130, 246, 0.1);
+    }
 
     .contact-icon {
-      width: 36px;
-      height: 36px;
+      width: 44px;
+      height: 44px;
       background: var(--bg3);
-      border-radius: 8px;
+      border-radius: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 16px;
+      font-size: 18px;
       flex-shrink: 0;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .contact-info .label-small {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--muted);
+      letter-spacing: 0;
+      text-transform: none;
+      margin: 0;
+    }
+
+    .contact-info .value {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--primary);
     }
 
     /* ── CONTACT FORM ── */
@@ -407,6 +544,7 @@
       border-radius: 16px;
       padding: 28px 24px;
       margin-top: 32px;
+      box-shadow: 0 2px 12px rgba(30, 58, 95, 0.04);
     }
 
     .form-group { margin-bottom: 20px; }
@@ -419,12 +557,12 @@
       color: var(--text);
     }
 
-    .form-group label span { color: var(--gold); }
+    .form-group label span { color: var(--accent); }
 
     .form-group input,
     .form-group textarea {
       width: 100%;
-      background: var(--bg3);
+      background: var(--bg);
       border: 1px solid var(--border);
       border-radius: 10px;
       color: var(--text);
@@ -432,51 +570,18 @@
       font-size: 15px;
       padding: 14px 16px;
       outline: none;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s;
     }
     .form-group input:focus,
-    .form-group textarea:focus { border-color: var(--gold); }
+    .form-group textarea:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
+    }
 
     .form-group input::placeholder,
     .form-group textarea::placeholder { color: var(--muted); }
 
     .form-group textarea { resize: vertical; min-height: 120px; }
-
-    /* ── MODAL ── */
-    .modal {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.85);
-      z-index: 300;
-      align-items: flex-end;
-      justify-content: center;
-      padding: 16px;
-    }
-    .modal.open { display: flex; }
-
-    .modal-box {
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 32px 24px;
-      width: 100%;
-      max-width: 480px;
-    }
-
-    .modal-box h3 { font-size: 24px; margin-bottom: 24px; }
-
-    .modal-close {
-      background: none;
-      border: none;
-      color: var(--muted);
-      font-size: 14px;
-      cursor: pointer;
-      margin-top: 20px;
-      font-family: inherit;
-      padding: 0;
-    }
-    .modal-close:hover { color: var(--text); }
 
     /* ── FOOTER ── */
     footer {
@@ -485,6 +590,12 @@
       text-align: center;
       color: var(--muted);
       font-size: 13px;
+      background: var(--bg2);
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
     }
 
     /* ── WHATSAPP FLOAT ── */
@@ -500,7 +611,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+      box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45);
       text-decoration: none;
       transition: transform 0.2s;
     }
@@ -510,7 +621,15 @@
 
     @media (min-width: 640px) {
       section { padding: 80px 48px; }
-      nav { padding: 18px 48px; }
+      nav { padding: 16px 48px; }
+      .hero-btns {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .hero-btns .btn-outline {
+        flex: 1;
+        min-width: 140px;
+      }
     }
     @media (min-width: 960px) {
       section { padding: 100px 80px; max-width: 860px; margin: 0 auto; }
@@ -574,25 +693,25 @@
     <div class="service-num">01</div>
     <h3>Desenvolvimento Web</h3>
     <p>Sites e landing pages construídos do zero, em código limpo, rápidos e sem dependências desnecessárias.</p>
-    <a class="service-link" href="https://wa.me/244951526708?text=Olá%20Mário,%20preciso%20de%20um%20site!" target="_blank">Precisas de um site? Vamos conversar →</a>
+    <a class="service-link" href="https://wa.me/244951526708?text=Ol%C3%A1%20M%C3%A1rio%2C%20preciso%20de%20um%20site!" target="_blank" rel="noopener">Precisas de um site? Vamos conversar →</a>
   </div>
 
   <div class="service-item">
     <div class="service-num">02</div>
     <h3>Tráfego Pago</h3>
     <p>Gestão de campanhas Meta Ads com tracking implementado e otimização orientada a resultados reais.</p>
-    <a class="service-link" href="https://wa.me/244951526708?text=Olá%20Mário,%20quero%20escalar%20com%20tráfego%20pago!" target="_blank">Queres escalar? Vamos conversar →</a>
+    <a class="service-link" href="https://wa.me/244951526708?text=Ol%C3%A1%20M%C3%A1rio%2C%20quero%20escalar%20com%20tr%C3%A1fego%20pago!" target="_blank" rel="noopener">Queres escalar? Vamos conversar →</a>
   </div>
 
   <div class="service-item">
     <div class="service-num">03</div>
     <h3>Design Gráfico</h3>
     <p>Identidade visual, posts para redes sociais, banners e materiais que comunicam com clareza e impacto.</p>
-    <a class="service-link" href="https://wa.me/244951526708?text=Olá%20Mário,%20preciso%20de%20design%20gráfico!" target="_blank">Precisas de design? Vamos conversar →</a>
+    <a class="service-link" href="https://wa.me/244951526708?text=Ol%C3%A1%20M%C3%A1rio%2C%20preciso%20de%20design%20gr%C3%A1fico!" target="_blank" rel="noopener">Precisas de design? Vamos conversar →</a>
   </div>
 
   <div class="service-fallback">
-    Não viste aqui o que precisas? <a href="https://wa.me/244951526708?text=Olá%20Mário,%20tenho%20um%20desafio%20diferente!" target="_blank">Fala comigo na mesma</a>, provavelmente ainda consigo ajudar.
+    Não viste aqui o que precisas? <a href="https://wa.me/244951526708?text=Ol%C3%A1%20M%C3%A1rio%2C%20tenho%20um%20desafio%20diferente!" target="_blank" rel="noopener">Fala comigo na mesma</a>, provavelmente ainda consigo ajudar.
   </div>
 </section>
 
@@ -614,28 +733,28 @@
       <div class="project-tag">Web</div>
       <div class="project-title">Landing Page Profissional</div>
       <p class="project-desc">Site one-page responsivo construído do zero para apresentar serviços e captar contactos. Código limpo, carregamento rápido.</p>
-      <a class="project-link" href="https://wa.me/244951526708?text=Olá%20Mário,%20quero%20saber%20mais%20sobre%20este%20projeto!" target="_blank">Saber mais →</a>
+      <a class="project-link" href="https://wa.me/244951526708?text=Ol%C3%A1%20M%C3%A1rio%2C%20quero%20saber%20mais%20sobre%20este%20projeto!" target="_blank" rel="noopener">Saber mais →</a>
     </div>
 
     <div class="project-card" data-category="marketing">
       <div class="project-tag">Marketing</div>
       <div class="project-title">Campanha Meta Ads</div>
       <p class="project-desc">Gestão e otimização de campanha no Facebook e Instagram com targeting avançado e relatórios de desempenho.</p>
-      <a class="project-link" href="https://wa.me/244951526708?text=Olá%20Mário,%20quero%20saber%20mais%20sobre%20este%20projeto!" target="_blank">Saber mais →</a>
+      <a class="project-link" href="https://wa.me/244951526708?text=Ol%C3%A1%20M%C3%A1rio%2C%20quero%20saber%20mais%20sobre%20este%20projeto!" target="_blank" rel="noopener">Saber mais →</a>
     </div>
 
     <div class="project-card" data-category="design">
       <div class="project-tag">Design</div>
       <div class="project-title">Identidade Visual</div>
       <p class="project-desc">Criação de identidade visual completa: logótipo, paleta de cores, tipografia e guia de marca para uso em redes sociais.</p>
-      <a class="project-link" href="https://wa.me/244951526708?text=Olá%20Mário,%20quero%20saber%20mais%20sobre%20este%20projeto!" target="_blank">Saber mais →</a>
+      <a class="project-link" href="https://wa.me/244951526708?text=Ol%C3%A1%20M%C3%A1rio%2C%20quero%20saber%20mais%20sobre%20este%20projeto!" target="_blank" rel="noopener">Saber mais →</a>
     </div>
 
     <div class="project-card" data-category="web">
       <div class="project-tag">Web</div>
       <div class="project-title">Site de Portfólio</div>
       <p class="project-desc">Desenvolvimento deste portfólio pessoal em HTML, CSS e JavaScript puro, sem frameworks, otimizado para mobile.</p>
-      <a class="project-link" href="https://wa.me/244951526708?text=Olá%20Mário,%20quero%20saber%20mais%20sobre%20este%20projeto!" target="_blank">Saber mais →</a>
+      <a class="project-link" href="https://wa.me/244951526708?text=Ol%C3%A1%20M%C3%A1rio%2C%20quero%20saber%20mais%20sobre%20este%20projeto!" target="_blank" rel="noopener">Saber mais →</a>
     </div>
 
   </div>
@@ -643,26 +762,64 @@
 
 <!-- CONTACTO -->
 <section id="contacto">
-  <h2>Vamos conversar?</h2>
-  <p style="text-align:center; color: var(--muted);">Se tens um projeto em mente ou apenas queres fazer perguntas, entra em contacto.</p>
+  <p class="label" style="text-align:center;">Contacto</p>
+  <h2 style="text-align:center;">Vamos conversar?</h2>
+  <p style="text-align:center; color: var(--muted); max-width: 480px; margin-left: auto; margin-right: auto;">
+    Se tens um projeto em mente ou apenas queres fazer perguntas, entra em contacto. Clica e fala comigo diretamente.
+  </p>
 
   <div class="contact-cards">
-    <div class="contact-card" onclick="openModal('contactosModal')">
-      <div class="contact-icon">💬</div>
-      Meus contactos
-    </div>
-    <div class="contact-card" onclick="openModal('redesModal')">
-      <div class="contact-icon">🌐</div>
-      Minhas redes sociais
-    </div>
-    <a class="contact-card" href="https://wa.me/244951526708?text=Olá%20Mário,%20quero%20saber%20mais!" target="_blank">
+    <!-- WhatsApp direto -->
+    <a class="contact-card" href="https://wa.me/244951526708?text=Ol%C3%A1%20M%C3%A1rio%21" target="_blank" rel="noopener">
       <div class="contact-icon">📱</div>
-      Falar no WhatsApp
+      <div class="contact-info">
+        <span class="label-small">WhatsApp</span>
+        <span class="value">+244 951 526 708</span>
+      </div>
+    </a>
+
+    <!-- Email direto -->
+    <a class="contact-card" href="mailto:marioquissambo3@gmail.com">
+      <div class="contact-icon">✉️</div>
+      <div class="contact-info">
+        <span class="label-small">Email</span>
+        <span class="value">marioquissambo3@gmail.com</span>
+      </div>
+    </a>
+
+    <!-- Instagram direto -->
+    <a class="contact-card" href="https://instagram.com/quissambo09" target="_blank" rel="noopener">
+      <div class="contact-icon">📸</div>
+      <div class="contact-info">
+        <span class="label-small">Instagram</span>
+        <span class="value">@quissambo09</span>
+      </div>
+    </a>
+
+    <!-- Facebook -->
+    <a class="contact-card" href="https://facebook.com/MarioQuissambo" target="_blank" rel="noopener">
+      <div class="contact-icon">👤</div>
+      <div class="contact-info">
+        <span class="label-small">Facebook</span>
+        <span class="value">Mário Quissambo</span>
+      </div>
+    </a>
+
+    <!-- LinkedIn -->
+    <a class="contact-card" href="https://linkedin.com/in/marioquissambo" target="_blank" rel="noopener">
+      <div class="contact-icon">💼</div>
+      <div class="contact-info">
+        <span class="label-small">LinkedIn</span>
+        <span class="value">Mário Quissambo</span>
+      </div>
     </a>
   </div>
 
   <!-- FORM -->
   <div class="contact-form">
+    <p style="font-size: 14px; color: var(--muted); margin-bottom: 20px;">
+      Ou preenche o formulário e envia direto para o WhatsApp:
+    </p>
     <div class="form-group">
       <label>Nome <span>*</span></label>
       <input type="text" id="fname" placeholder="O teu nome" />
@@ -679,7 +836,7 @@
       <label>Mensagem <span>*</span></label>
       <textarea id="fmsg" placeholder="Conta-me mais sobre o teu projeto..."></textarea>
     </div>
-    <button class="btn-gold" style="width:100%; font-size:15px;" onclick="enviarWhatsApp()">
+    <button type="button" class="btn-gold" style="width:100%; font-size:15px;" onclick="enviarWhatsApp()">
       💬 Enviar no WhatsApp
     </button>
   </div>
@@ -688,70 +845,19 @@
 <!-- FOOTER -->
 <footer>
   <p>© 2026 Mário Quissambo · Luanda, Angola</p>
-  <p style="margin-top:8px;"><a href="mailto:marioquissambo3@gmail.com" style="color:var(--gold); text-decoration:none;">marioquissambo3@gmail.com</a></p>
+  <p style="margin-top:8px;">
+    <a href="mailto:marioquissambo3@gmail.com">marioquissambo3@gmail.com</a>
+    ·
+    <a href="https://wa.me/244951526708" target="_blank" rel="noopener">+244 951 526 708</a>
+  </p>
 </footer>
 
-<!-- WHATSAPP FLOAT -->
-<a class="wa-float" href="https://wa.me/244951526708?text=Olá%20Mário!" target="_blank" title="WhatsApp">
+<!-- WHATSAPP FLOAT — abre direto a conversa -->
+<a class="wa-float" href="https://wa.me/244951526708?text=Ol%C3%A1%20M%C3%A1rio%21" target="_blank" rel="noopener" title="Abrir WhatsApp">
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
   </svg>
 </a>
-
-<!-- MODAL: CONTACTOS -->
-<div class="modal" id="contactosModal">
-  <div class="modal-box">
-    <h3>Falar comigo</h3>
-    <div class="contact-cards">
-      <a class="contact-card" href="mailto:marioquissambo3@gmail.com" style="border-color: var(--gold);">
-        <div class="contact-icon">✉️</div>
-        <div>
-          <div style="font-weight:700">Email</div>
-          <div style="font-size:12px; color:var(--muted)">marioquissambo3@gmail.com</div>
-        </div>
-      </a>
-      <a class="contact-card" href="https://wa.me/244951526708" target="_blank">
-        <div class="contact-icon">📞</div>
-        <div>
-          <div style="font-weight:700">WhatsApp / Unitel</div>
-          <div style="font-size:12px; color:var(--muted)">+244 951 526 708</div>
-        </div>
-      </a>
-    </div>
-    <button class="modal-close" onclick="closeModal('contactosModal')">Fechar</button>
-  </div>
-</div>
-
-<!-- MODAL: REDES SOCIAIS -->
-<div class="modal" id="redesModal">
-  <div class="modal-box">
-    <h3>Minhas redes sociais</h3>
-    <div class="contact-cards">
-      <a class="contact-card" href="https://instagram.com/quissambo09" target="_blank" style="border-color: var(--gold);">
-        <div class="contact-icon">📸</div>
-        <div>
-          <div style="font-weight:700">Instagram</div>
-          <div style="font-size:12px; color:var(--muted)">@quissambo09</div>
-        </div>
-      </a>
-      <a class="contact-card" href="https://facebook.com/MárioQuissambo" target="_blank">
-        <div class="contact-icon">👤</div>
-        <div>
-          <div style="font-weight:700">Facebook</div>
-          <div style="font-size:12px; color:var(--muted)">Mário Quissambo</div>
-        </div>
-      </a>
-      <a class="contact-card" href="https://linkedin.com/in/MárioQuissambo" target="_blank">
-        <div class="contact-icon">💼</div>
-        <div>
-          <div style="font-weight:700">LinkedIn</div>
-          <div style="font-size:12px; color:var(--muted)">Mário Quissambo</div>
-        </div>
-      </a>
-    </div>
-    <button class="modal-close" onclick="closeModal('redesModal')">Fechar</button>
-  </div>
-</div>
 
 <script>
   // PARTICLES
@@ -763,20 +869,13 @@
     p.style.animationDuration = (8 + Math.random() * 12) + 's';
     p.style.animationDelay = (Math.random() * 10) + 's';
     p.style.width = p.style.height = (2 + Math.random() * 3) + 'px';
-    p.style.opacity = 0.2 + Math.random() * 0.4;
+    p.style.opacity = 0.15 + Math.random() * 0.25;
     container.appendChild(p);
   }
 
   // MENU
   function openMenu() { document.getElementById('menuOverlay').classList.add('open'); }
   function closeMenu() { document.getElementById('menuOverlay').classList.remove('open'); }
-
-  // MODAL
-  function openModal(id) { document.getElementById(id).classList.add('open'); }
-  function closeModal(id) { document.getElementById(id).classList.remove('open'); }
-  document.querySelectorAll('.modal').forEach(m => {
-    m.addEventListener('click', e => { if (e.target === m) m.classList.remove('open'); });
-  });
 
   // PROJECT FILTER
   function filterProjects(cat, btn) {
@@ -787,7 +886,7 @@
     });
   }
 
-  // WHATSAPP FORM
+  // WHATSAPP FORM — abre direto a conversa com a mensagem preenchida
   function enviarWhatsApp() {
     const nome = document.getElementById('fname').value.trim();
     const email = document.getElementById('femail').value.trim();
